@@ -1,0 +1,148 @@
+body {
+  /*posiziona la centrocontainer*/
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:  hsl(225, 100%, 94%);
+  font-size: 16px;
+      font-family:"Red Hat Display";
+      font-weight: 400;
+
+
+
+}
+
+
+ .imgSfrondo{ width: 100%;
+
+ }
+.container {
+  position: absolute;
+  margin-top: 3%;
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 400px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/**/
+.imgMusic {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+
+/**/
+.text {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/**/
+.abbonamento {
+  background-color: hsl(225, 100%, 98%);
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 7%;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*--------------------oggetti------------------*/
+.btn {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 7%;
+  border-radius: 12px;
+  height: 40px;
+
+font-weight: 700;
+
+}
+
+#btn2 {
+  background-color: white;
+  color: gray;
+
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 1000px;
+  }
+  body{
+    background-image: url('images/pattern-background-mobile.svg');
+     background-repeat: no-repeat;
+  }
+
+}
+
+h1, strong{
+  font-weight: 1000;
+  margin-bottom: 5%;
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution p{
+  margin-top: 5%;
+margin-left: 10%;
+
+
+}
+
+
+.abbonamento p{
+  color: #AAA;
+  margin-top: 4%;
+  margin-right: 25%;
+  margin-left: 3%;
+  font-weight: 700;
+
+}
+
+.abbonamento a{
+  margin-right: 4%;
+  text-decoration: underline;
+}
+
+.abbonamento img{
+    margin-left: 5%;
+
+}
+
+.text p{
+  color: gray;
+}
+
+
+.btn:hover{
+background-color: blue;
+color: white;
+
+};
+
+#btn2:hover{
+  color: black;
+
+}
+a:hover{
+  text-decoration: none;
+  color: purple;
+
+}
